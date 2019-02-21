@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylecomp.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="indexJ.html?">Latitude v Weather Project</a>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <div class="dropdown">
+                    <button class="dropbtn">Plots</button>
+                    <div class="dropdown-content">
+                      <a href="maxtemp.html">Max Temperature</a>
+                      <a href="humidity.html">Humidity</a>
+                      <a href="cloudiness.html">Cloudiness</a>
+                      <a href="windspd.html">Wind Speed</a>
+                    </div>
+              <ul class="nav nav-pills pull-right">    
+                   
+                    <li role="presentation"><a href="comparison.html">Comparison</a></li>
+       
+                    <li role="presentation"><a href="data.html">Data</a></li>
+               
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="jumbotron">
+            <div class="container">
+              <h>Latitude Project: Latitude vs. Cloudiness </h>
+              <p> The data shows very little correlation between latitude and cloudiness. 
+                  There is some interesting clustering of data around 0%, 20%, 75% and 90% cloudiness. This is perhaps due to
+                  rounding for ease of presentation.
+    
+        <div class="row">
+           <div class="col-md-3">
+              <p><img src =  "https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/Images/cloudiness.png"></p></div>
+
+
+
+   

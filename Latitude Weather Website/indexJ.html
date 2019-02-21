@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="indexJ.html?">Latitude v Weather Project</a>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <div class="dropdown">
+                    <button class="dropbtn">Plots</button>
+                    <div class="dropdown-content">
+                      <a href="maxtemp.html">Max Temperature</a>
+                      <a href="humidity.html">Humidity</a>
+                      <a href="cloudiness.html">Cloudiness</a>
+                      <a href="windspd.html">Wind Speed</a>
+                    </div>
+              <ul class="nav nav-pills pull-right">    
+                   
+                    <li role="presentation"><a href="comparison.html">Comparison</a></li>
+       
+                    <li role="presentation"><a href="data.html">Data</a></li>
+               
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h>Latitude Project: Latitude vs. X </h>
+        <p>This project analyzes the relationship between the weather and distance from the equator. To complete this analysis I used the OpenWeather API to 
+            assemble data for over 500 cities.  I assembled and cleaned the data using python and pandas and then created visualizations using Matplotlib. This 
+            website shows the source data and visualizations of weather vs. latitude created for this project. There is also an explantion of the trends and conclusions
+            I observed from the data.   </p>
+        
+      </div>
+    </div>
+
+    <div class="container">
+    <h2>Visualizations</h2>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+          <p><img src = "https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/Images/cloudiness.png"></p>
+        </div>
+        <div class="col-md-3">
+            <p><img src =  "https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/Images/humidity.png"></p>
+       </div>
+        <div class="col-md-3">
+          
+          <p><img src ="https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/Images/temperature.png"></p>
+          
+        </div>
+        <div class="col-md-3">
+          
+                <p><img src= "https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/Images/temperature.png"></p>
+                
+              </div>
+      </div>
+
+      <hr>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
