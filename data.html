@@ -68,7 +68,7 @@
         
             $.ajax({
                 type: "GET",
-                url: "API_homework/output_data/cities.csv",
+                url: "https://raw.githubusercontent.com/AdrienneLewis/API_homework/master/output_data/cities.csv",
                 success: function (data) {
                     $('body').append(arrayToTable(Papa.parse(data).data));
                 }
